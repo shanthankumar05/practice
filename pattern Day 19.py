@@ -75,9 +75,21 @@ else:
         n2=n1
         n1=temp
 print(n1,n2,n3)
-          
+ ----Fibonnaci Series
+num=int(input("Enter value: "))
+a=0
+b=1;
+c=a+b;
+print(a,b)
+while(num>c):
+    c=a+b;
+    print(c)
+    a=b;
+    b=c;
     
-         
+    
+
+
         
   
              
